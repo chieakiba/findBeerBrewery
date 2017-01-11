@@ -13,7 +13,7 @@ export const toggleModal = (modal) => ({
   modal
 })
 
-export const modalSubmit = () => ({
+export const searchForBrewery = () => ({
   return (dispatch, getState) => {
     let breweryFinder = getState().form.BreweryLocationFinder;
     let brewery = {
