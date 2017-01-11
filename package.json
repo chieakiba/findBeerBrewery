@@ -3,16 +3,35 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
-    "react-scripts": "0.8.5"
+    "react-scripts": "0.8.5",
+    "redux-logger": "^2.7.4"
   },
   "dependencies": {
+    "axios": "^0.15.3",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongodb": "^2.2.20",
+    "mongoose": "^4.7.6",
+    "morgan": "^1.7.0",
+    "nodemon": "^1.11.0",
     "react": "^15.4.2",
-    "react-dom": "^15.4.2"
+    "react-bootstrap": "^0.30.7",
+    "react-dom": "^15.4.2",
+    "redux": "^3.6.0",
+    "redux-form": "^6.4.3",
+    "redux-promise-middleware": "^4.2.0",
+    "redux-thunk": "^2.1.0",
+    "request": "^2.79.0",
+    "sendgrid": "^4.7.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "proxy": "http://localhost:3001",
+  "main": "index.js",
+  "author": "Chie Akiba",
+  "license": "ISC"
 }
